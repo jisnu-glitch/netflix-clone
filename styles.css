@@ -23,11 +23,11 @@ body {
     rgba(0, 0, 0, 0.7) 0%,
     rgba(0, 0, 0, 0) 100%
   );
-  z-index: 100;
+  z-index: 1000;
   transition: background-color 0.3s;
 }
 
-.navbar {
+.navbar.scrolled {
   background-color: #141414;
 }
 
