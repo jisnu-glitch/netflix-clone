@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--font-awsome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/500px-Netflix_2015_logo.svg.png"
+          alt="netflixImage"
+          class="logo"
+        />
+      </div>
+      <div class="navbar-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Tv shows</a>
+        <a href="#" class="nav-link">Movies</a>
+        <a href="#" class="nav-link">New & Popular</a>
+        <a href="#" class="nav-link">My Lists</a>
+      </div>
+      <div class="navbar-right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          alt="Profile image"
+          class="profile-icon"
+        />
+      </div>
+    </nav>
+
+    <!-- h-secton -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Stranger Things</h1>
+        <p classs="hero-description">
+          When a young boy vanishes,<br />a small town uncovers a mystery
+          involving secret experiments, terrifying supernatural forces and one
+          strange little girl.
+        </p>
+        <div class="hero-button">
+          <button class="btn btn-play"><i class="fa fa-play"></i>Play</button>
+          <button class="btn btn-more-info">
+            <i class="fa fa-info-circle"></i> More-info
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Movie-row -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="content-title">Only on Netflix</h2>
+        <div class="content-row">
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2 class="content-title">Only on Netflix</h2>
+        <div class="content-row">
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2 class="content-title">Only on Netflix</h2>
+        <div class="content-row">
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwOnBbclnzQTYYISAKYYc4Q-pOlF7-x8BXA&s"
+              alt="Movie card"
+            />
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+
+              <div class="overlay-buttom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-title">
+                  <p>Mission Impossible: Dead Reckoning Part One</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="down">
+      <section class="icon-section container-fluid">
+        <div class="icon-row">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <div class="text-row1">
+          <p>Audio Description</p>
+          <p>Investor Relations</p>
+          <p>Legal Notices</p>
+          <p>Gift Cards</p>
+        </div>
+        <div class="text-row2">
+          <p>Audio Description</p>
+          <p>Investor Relations</p>
+          <p>Legal Notices</p>
+          <p>Gift Cards</p>
+        </div>
+        <div class="text-row2">
+          <p>Audio Description</p>
+          <p>Investor Relations</p>
+          <p>Legal Notices</p>
+          <p>Gift Cards</p>
+        </div>
+
+        <div class="code-box">
+          <p>Service Code</p>
+        </div>
+      </section>
+      <div class="copyright">
+        <p>&copy;1997-2025 Netflix. Inc</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
