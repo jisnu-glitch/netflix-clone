@@ -422,6 +422,7 @@ body {
   margin-top: 8vh;
   list-style-type: none;
   display: flex;
+  align-items:center;
 
   gap: 250px;
 }
@@ -430,6 +431,7 @@ body {
   margin-top: 5vh;
   list-style-type: none;
   display: flex;
+  align-items:center;
 
   gap: 250px;
 }
