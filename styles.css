@@ -397,7 +397,11 @@ body {
     rgba(0, 0, 0, 0.7) 0%,
     rgba(0, 0, 0, 0) 100%
   );
-  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
   transition: background-color 0.3s;
 }
 
@@ -409,6 +413,7 @@ body {
   display: flex;
   gap: 30px;
   font-size: 22px;
+  flex-direction: row;
 }
 
 .icon-row i {
@@ -418,44 +423,32 @@ body {
 .icon-row i:hover {
   color: #e5e5e5;
 }
-.text-row1 {
-  margin-top: 8vh;
-  list-style-type: none;
-  display: flex;
-  align-items:center;
 
-  gap: 250px;
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 5vh;
+  text-align: left;
+  gap: 50px;
+  background: transparent;
+  text-align: left;
 }
 
-.text-row2 {
-  margin-top: 5vh;
-  list-style-type: none;
-  display: flex;
-  align-items:center;
-
-  gap: 250px;
-}
-
-.text-row1 p {
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
   cursor: default;
 }
 
-.text-row1 p:hover {
-  color: #e5e5e5;
-  text-decoration: underline;
-}
-
-.text-row2 p {
-  cursor: default;
-}
-
-.text-row2 p:hover {
-  color: #e5e5e5;
-  text-decoration: underline;
+.footer-links a:hover {
+  color: #fff;
 }
 
 .code-box {
   padding: 10px 20px;
+
   margin-top: 9vh;
   display: inline-block;
   border: 1px;
@@ -464,8 +457,14 @@ body {
   cursor: default;
 }
 
+.code-box a {
+  text-decoration: none;
+  color: #ccc;
+}
+
 .code-box:hover {
   color: #e5e5e5;
+  cursor: default;
 }
 
 .copyright {
